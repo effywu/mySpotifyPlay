@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src=
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+            type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.1/lodash.min.js"></script>
+    <script type="text/javascript" src="searchTracksapp.js"></script>
+    <link rel="stylesheet" type="text/css" href="featureStyle.css">
+    <title>Search Tracks</title>
+</head>
+<body onload="startSearchTracks()">
+<div class="headTitle">Search Tracks</div>
+<div class="contentPnl">
+<input type="radio" name="searchOption" value="searchRate" id="searchRate" checked=true>Search By Rating
+<input type="radio" name="searchOption" value="searchTagsAll" id="searchTagsAll">Search By All of given tags
+<input type="radio" name="searchOption" value="searchTagsAny" id="searchTagsAny">Search By Any of given tags
+    <div class="contentWrapper">
+<div id="searchRatePnl">Search Rating greater than or equal to(between 1 and 5):<input type="number" name="rate" min="1" max="5" id="myRating"><br></div>
+<div id="searchTagsAllPnl"><div id="Allcheckboxes"></div></div>
+<div id="searchTagsAnyPnl"><div id="Anycheckboxes"></div></div>
+
+    <div class="buttons"><button id="searchTrack">Search</button>&nbsp;<button onclick="window.close()">Cancel</button></div>
+    </div>
+    <div class="resultWrapper">
+        <div class="headTitle">Search Results:<br></div>
+
+<div id="result"></div>
+        <div><button id="addNewPlaylist" onclick="$('.addPnl').show()">Add to new Playlist</button></div>
+        <div class="addPnl">
+            New Playlist Name: <textarea id="newListName"></textarea>
+            <div><button id="addList">Add</button>&nbsp;<button onclick="$('.addPnl').hide()">Cancel</button></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

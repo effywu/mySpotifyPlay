@@ -1,0 +1,227 @@
+
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.menuWrapper button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: hand;
+}
+
+.resultWrapper button {
+    background-color: cornflowerblue; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: hand;
+}
+
+#login {
+	display: none;
+}
+
+#loggedin {
+	display: none;
+}
+#helloInfo {
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+#myplaylists{
+    display:inline-block;
+}
+
+#mytags {
+    display:inline-block;
+}
+
+#mysearch {
+    display:inline-block;
+}
+.currenttags {
+    font-family: fantasy;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.mytag {
+    margin: 5px 5px;
+    padding: 3px 15px;
+    display: inline-block;
+    background-color: cadetblue;
+    border-radius: 10px;
+
+}
+
+.resultWrapper {
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border:seagreen dashed 2px;
+    background-color: lightpink;
+}
+
+.menuWrapper {
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    line-height: 40px;
+    border:seagreen dashed 2px;
+    background-color: beige;
+}
+
+.menuWrapper .selected {
+    background-color: black; /* Green */
+    color: pink;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.lists {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.trackInLists {
+    line-height: 30px;
+    background-color: aliceblue;
+    border: black dashed 1px;
+    margin: 3px 0;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+.expand.selected {
+    background-color: black; /* Green */
+    color: pink;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 645px) {
+
+    .menuWrapper button {
+        padding: 5px 4px;
+        font-size: 12px;
+    }
+
+    .resultWrapper button {
+        padding: 5px 4px;
+        font-size: 12px;
+    }
+    #helloInfo {
+        margin-left:20px;
+        margin-right:20px;
+        padding: 10px 5px;
+    }
+    .resultWrapper {
+        margin-left:20px;
+        margin-right:20px;
+        padding: 10px 5px;
+    }
+
+    .menuWrapper {
+        margin-left:20px;
+        margin-right:20px;
+        line-height:35px;
+    }
+
+    .menuWrapper .selected {
+        font-size: 14px;
+    }
+    ul {
+        padding: 5px 2px;
+    }
+    .lists {
+        font-weight: bold;
+        padding: 2px 0;
+    }
+
+    .trackInLists {
+        font-size: 13px;
+        padding: 0 2px;
+    }
+
+    .expand.selected {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 470px) {
+
+    .menuWrapper button {
+        font-size: 11px;
+    }
+
+    .resultWrapper button {
+        font-size: 11px;
+    }
+    #helloInfo {
+        margin-left:10px;
+        margin-right:10px;
+        padding: 5px 2px;
+    }
+    .resultWrapper {
+        margin-left:10px;
+        margin-right:10px;
+        padding: 5px 2px;
+    }
+
+    .menuWrapper {
+        margin-left:10px;
+        margin-right:10px;
+        line-height:30px;
+    }
+
+    .menuWrapper .selected {
+        font-size: 13px;
+    }
+    ul {
+        padding: 5px 1px;
+    }
+    .lists {
+        font-weight: bold;
+        padding: 2px 0;
+    }
+
+    .trackInLists {
+        font-size: 12px;
+        padding: 0 2px;
+    }
+
+    .expand.selected {
+        font-size: 13px;
+    }
+}

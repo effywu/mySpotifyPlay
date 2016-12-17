@@ -1,0 +1,73 @@
+
+body {
+    min-width: 280px;
+    min-height: 180px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: hand;
+}
+.headTitle{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+.contentPnl{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttons{
+    padding-top: 20px;
+}
+.contentWrapper{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border:seagreen dashed 2px;
+    background-color: beige;
+    text-align: center;
+}
+
+.resultWrapper {
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border:seagreen dashed 2px;
+    background-color: lightpink;
+}
+
+#trackInfo {
+    font-family:fantasy;
+    text-align: center;
+    color:palevioletred;
+    margin:20px 10px;
+}
+
+.resulttracks {
+    line-height: 30px;
+    background-color: aliceblue;
+    border: black dashed 1px;
+    margin: 3px 0;
+    padding: 0 5px;
+    font-size: 15px;
+}
+#addNewPlaylist{
+    margin: 5px 0;
+}
+.addPnl textarea {
+    line-height: 10px;
+}

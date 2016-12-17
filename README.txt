@@ -1,0 +1,3 @@
+- UI enhancement
+- Add search result to a new playlist that named by the user
+- responsive for different screen size/rotate
